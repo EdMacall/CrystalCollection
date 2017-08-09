@@ -10,7 +10,7 @@ $(document).ready(function() {
   var userGuess;
 
   function init() {
-    goal      = Math.floor(Math.random() * 80) + 20;
+    goal      = Math.floor(Math.random() * 102) + 19;
     redGem    = Math.floor(Math.random() * 12) + 1;
     blueGem   = Math.floor(Math.random() * 12) + 1;
     yellowGem = Math.floor(Math.random() * 12) + 1;
@@ -22,19 +22,19 @@ $(document).ready(function() {
   }
 
   $(".buttons").on("click", function(){
-  	executeTurn(1);
+  	executeTurn(redGem);
   });
 
   $(".blue-button").on("click", function(){
-  	executeTurn(1);
+  	executeTurn(blueGem);
   });
 
   $(".yellow-button").on("click", function(){
-  	executeTurn(1);
+  	executeTurn(yellowGem);
   });
 
   $(".green-button").on("click", function(){
-  	executeTurn(1);
+  	executeTurn(greenGem);
   });
 
   document.onkeyup = function(event) {
