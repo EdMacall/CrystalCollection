@@ -1,0 +1,73 @@
+.container {
+	background-color: lightblue;
+	width: 100%;
+	 /*height: 100%;*/
+	/*position: fixed;*/
+	top: 0;
+	bottom: 0;
+	font-size: 20px;
+
+}
+
+.header {
+	font-size: 35px;
+	padding: 20px;
+	margin: 20px;
+	background-color: brown;
+	width: 300px;
+}
+
+.directions {
+	padding: 20px;
+	margin: 20px;
+	background-color: beige;
+	width: 500px;
+}
+
+.goal {
+	padding: 20px;
+	padding-left: 25px;
+	margin: 20px;
+	float: left;
+	background-color: green;
+	width: 200px;
+	height: 125px;
+}
+
+.tally {
+	padding: 20px;
+	padding-left: 25px;
+	margin: 20px;
+	float: left; 
+	background-color: aqua;
+	width: 150px;
+	height: 125px;
+}
+
+.buttons {
+	clear: both;
+	padding: 20px;
+	padding-left: 60px;
+	margin: 20px;
+	background-color: white;
+	width: 500px;
+	height: 100px;
+}
+
+.totalScore {
+	padding: 10px;
+	padding-right: 25px;
+	margin: 20px;
+	background-color: lightgreen;
+	width: 200px;
+}
+
+.display {
+	padding: 20px;
+	padding-left: 25px;
+	margin: 20px;
+	background-color: lightgreen;
+	width: 200px;
+	height: 100px;
+}
+
